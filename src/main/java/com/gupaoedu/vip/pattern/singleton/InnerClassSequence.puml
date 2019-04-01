@@ -1,0 +1,5 @@
+@startuml
+LazyInnerClassSingleton  -> LazyHolder: getInstance()
+LazyHolder --> LazyInnerClassSingleton: new LazyInnerClassSingleton()
+
+@enduml
